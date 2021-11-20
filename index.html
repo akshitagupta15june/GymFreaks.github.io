@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>GymFreaks</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  /* padding: 10px; */
+}
+
+.grid-container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid black; */
+  color: cadetblue;
+  text-align: center;
+  font-size: 15px;
+  /* font-size: 30px; */
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+    
+    
+    
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT US</a>
+  
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+ 
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="backgym.jpg" style="width: 1000px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Dan Millman</h3>
+      <p><b>“You don’t have to control your thoughts. You just have to stop letting them control you.”</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="backgym.jpg" style="width:1000px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3> Lalah Delia</h3>
+      <p><b>“Self-care is how you take your power back.”</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="backgym.jpg" style="width:1000px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Kody Keplinger</h3>
+      <p><b>“You can’t control everything. Sometimes you just need to relax and have faith that things will work out. Let go a little and just let life happen.”</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+    <h2 class="w3-wide"><b>GymFreaks</b></h2>
+    <p class="w3-opacity"><i>‘The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion.’</i></p>
+    <p class="w3-justify"><b>Do you feel depressed or suicidal? Do you have a question related to your own or someone else's mental health? FightMind is here to help you. We have come up with some of the best features such as a section where you may book tickets and socialize with your peers by attending events together and as we know AEROBICS and GYMNASTICS helps to relax our muscles and reduces all the stress. Most importantly, we provide Augmented Reality Meditation, which is an active, immersive, and visual experience. It assists you in achieving a profound level of relaxation and a calm mind. Your mental health, which encompasses your emotional, psychological, and social well-being, is our primary emphasis. It has an impact on the way you think, feel, and act. It also influences how we deal with stress, interacts with people, and make good decisions. As a result, we provide you with a free psychologist with whom you may contact at any time and make appointments.
+    </b></p>
+    
+  </div>
+
+  
+ <!-- The AR Meditation Section Section -->
+
+
+
+ <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="AR-Meditation">
+  
+  <h2 class="w3-wide">Augmented Reality Meditation</h2>
+  <p class="w3-opacity"><i>"Inhale the future, exhale the past."</i></p>
+  <p class="w3-justify">Unlike traditional meditation, Augmented Reality Meditation is active, immersive, and visual.
+    AR Meditation creates unique customer experiences.
+    The biggest advantage of Augmented Reality is that it creates unique digital experiences that blend the best of digital and physical worlds.
+  </p>
+   
+
+   <img src="buddha.webp" style="width:50%">
+
+   <p><b>Very peaceful meditating music which is sure to inspire deep thought.</b></p>
+   <audio controls>
+     
+    
+    <source src="deep-music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <div class="w3-row w3-padding-32">
+    <div class="w3-quarter">
+      <p><b>Gautama Buddha Meditation</b></p>
+      <img src="buddhaqr.png" class="w3-round w3-margin-bottom" alt="Random Name"   style="width: 200px;">
+      <p>Scan this QR code</p>
+      
+    </div>
+    <div class="w3-quarter">
+      <p><b>Inner Peace</b></p>
+      <img src="girlmediqr.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width: 200px;">
+      <p>Scan this QR code</p>
+      
+    </div>
+    <div class="w3-quarter">
+      <p><b>Peaceful Yoga</b></p>
+      <img src="boyqr.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width: 200px;">
+      <p>Scan this QR code</p>
+      
+    </div>
+    <div class="w3-quarter">
+      <p><b>Meditate with music</b></p>
+      <img src="boy2qr.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width: 200px;">
+      <p>Scan this QR code</p>
+    </div>
+    <p> <b>You just have to open your google lens and scan the QR code for an ultimate Augmented reality experience in front of your eyes.</b></p>
+  </div>
+</div>
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT US</h2>
+    <p class="w3-opacity w3-center"><i>REPORT ANY SERIOUS ISSUES!!</i></p>
+      <div class="w3-col m13 w3-center">
+        <form action="https://formspree.io/f/xayaokzl" method="POST">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="4.jpeg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+  <div class="grid-container">
+    
+    <div>
+      <a rel="noreferrer" href="mailto:info@vandrevalafoundation.com" target="_blank"><img src="https://uploads-ssl.webflow.com/5bd711661291eb7f7f1e68e6/607542af06dd191617e19837_email-outline.png" width="32" height="32"></a>
+      <p><a rel="noreferrer" href="mailto:info@vandrevalafoundation.com" target="_blank">Email Us</a></p>
+    </div>
+    <div>
+      <a href="https://vandrevalafoundation.com/formvf" target="_blank"><img src="https://uploads-ssl.webflow.com/5bd711661291eb7f7f1e68e6/6075429f76a8b87f9bb94d59_form.png" width="32" height="32"></a>
+      <p><a href="https://vandrevalafoundation.com/formvf" target="_blank">Register</a></p>
+    </div>
+  
+        
+      <!--<li>
+            <img src="images/youtube-circle.png" width="32" height="32">
+            <p><a href="http://www.youtube.com/codexworld" target="_blank">Subscribe on<br>YouYube</a></p>
+        </li>
+        <li>
+            <img src="images/pin-circle.png" width="32" height="32">
+            <p><a href="https://www.pinterest.com/codexworld" target="_blank">Follow Us on<br>Pinterest</a></p>
+        </li>-->
+    </ul>
+  </div>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
