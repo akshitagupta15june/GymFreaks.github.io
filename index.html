@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>GymFreaks</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  /* padding: 10px; */
+}
+
+.grid-container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid black; */
+  color: cadetblue;
+  text-align: center;
+  font-size: 15px;
+  /* font-size: 30px; */
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="#workout" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WORKOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+    
+    
+    
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT US</a>
+  
+  <a href="#workout" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WORKOUT</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+ 
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/backgym.jpg" style="width: 1000px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Rory Mcllroy</h3>
+      <p><b>“Going to the gym is great for your body, but its also great for your mind”</b></p>   
+    </div>
+  </div>
+  <!-- <div class="mySlides w3-display-container w3-center">
+    <img src="images/backgym.jpg" style="width:1000px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3> Lalah Delia</h3>
+      <p><b>“Self-care is how you take your power back.”</b></p>    
+    </div> -->
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/run.jpg" style="width:1000px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Anonymous</h3>
+      <p><b>“Your body can stand almost anything.Its your mind that that tells you to continue.”</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+    <h2 class="w3-wide"><b>GymFreaks</b></h1>
+    <p class="w3-opacity"><i>‘The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion.’</i></p>
+    <p class="w3-center"><b>Do you want to spend a few fruitful hours at the gym? Would it be better to see someone performing the exercises around you?
+      <br>
+      Don't have a trainer around?<br>
+      Don't worry! GymFreaks is here to help you. <br>
+      Scan the QR code beside the exercise using Google Lens. You can inspect the video playing right in front of you and get every movement right!<br>
+      Have a problem with the AR set-up? Watch the 3D video instead.
+      <br>
+      GymFreaks ensures that your gym-time counts!
+    </b></p>
+    
+  </div>
+
+  
+ <!-- The workout Section Section -->
+
+
+
+ <div class="w3-container w3-content  w3-padding-64" style="max-width:800px" id="workout">
+  
+  <h2 class="w3-wide w3-center">Let's do Workout!</h2>
+  <p class="w3-opacity w3-center"><i>"All progress takes place outside the comfort zone."</i></p>
+  <p class="w3-justify w3-center">
+  </p>
+   
+    <div class = "w3-center">
+   <img src="images/fitness.jpg" style="width:70%">
+
+   <p><b>Best Workout Song to Get You Motivated.</b></p>
+   <audio controls>
+     
+    
+    <source src="hall-of.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <b><p>Scan the QR code beside the 3D exercise video using Google Lens. You can inspect the video playing right in front of you and get every movement right!
+    Have a problem with the AR set-up? Watch the 3D video instead.</p></b>
+</div>
+  <div class="w3-padding-32"> 
+    <div class = "w3-left">
+      <p><b class = "w3-xxlarge ">Bench Press</b></p>
+      <video src="videos/bodybuilding.mp4" type="video/mp4" class="w3-round w3-margin-bottom" alt="Body Building preview"   style="width: 450px;" controls></video>
+    </div>
+    <div class = "w3-center w3-padding-64">
+      <p>Scan this QR code for AR-Workout</p>
+      <img src = "qr-code/body-building.png" class="w3-round w3-margin-bottom " alt="QR code-body buiding" style="width: 200px;">
+      </div>
+  </div> 
+    <p><b>Here’s how to Bench Press with proper form:</b></p>
+    <ol>
+      <li>Lie on the bench with your eyes under the bar</li>
+      <li>Grab the bar with a medium grip-width (thumbs around the bar!)</li>
+      <li>Unrack the bar by straightening your arms</li>
+      <li>Lower the bar to your mid-chest</li>
+      <li>Press the bar back up until your arms are straight</li>
+    </ol>
+
+  
+    
+</div>
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT US</h2>
+    <p class="w3-opacity w3-center"><i>REPORT ANY SERIOUS ISSUES!!</i></p>
+      <div class="w3-col m13 w3-center">
+        <form action="https://formspree.io/f/xayaokzl" method="POST">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="4.jpeg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+  <div class="grid-container">
+    
+    <div>
+      <a rel="noreferrer" href="mailto:info@vandrevalafoundation.com" target="_blank"><img src="https://uploads-ssl.webflow.com/5bd711661291eb7f7f1e68e6/607542af06dd191617e19837_email-outline.png" width="32" height="32"></a>
+      <p><a rel="noreferrer" href="mailto:info@vandrevalafoundation.com" target="_blank">Email Us</a></p>
+    </div>
+    <div>
+      <a href="https://vandrevalafoundation.com/formvf" target="_blank"><img src="https://uploads-ssl.webflow.com/5bd711661291eb7f7f1e68e6/6075429f76a8b87f9bb94d59_form.png" width="32" height="32"></a>
+      <p><a href="https://vandrevalafoundation.com/formvf" target="_blank">Register</a></p>
+    </div>
+  
+        
+      <!--<li>
+            <img src="images/youtube-circle.png" width="32" height="32">
+            <p><a href="http://www.youtube.com/codexworld" target="_blank">Subscribe on<br>YouYube</a></p>
+        </li>
+        <li>
+            <img src="images/pin-circle.png" width="32" height="32">
+            <p><a href="https://www.pinterest.com/codexworld" target="_blank">Follow Us on<br>Pinterest</a></p>
+        </li>-->
+    </ul>
+  </div>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
